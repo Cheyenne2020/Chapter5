@@ -7,7 +7,7 @@ public class AgeGame {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		int usersAge;
-		String result;
+		String result = null;
 		Scanner input = new Scanner(System.in);
 		
 		System.out.println("Please enter your age to be insulted");
@@ -45,6 +45,7 @@ public class AgeGame {
 		{
 			result = "Die already";
 		}
+		displayMessage(result);
 
 	}
 	public static void displayMessage(String result)
