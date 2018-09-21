@@ -32,14 +32,33 @@ public class AscendingAndDescending {
 				medium = num3;
 				high = num2;
 			}
-		if(num2 <= num1 && num2 <= num3) {
+		}
+		if(num2 <= num1 && num2 <= num3) 
+		{
 			low = num2;
 			if(num1 <= num3) {
 				medium = num1;
 				high = num3;
 			}
+			else {
+				medium = num3;
+				high = num1;
+			}
 		}
+		if(num3 <= num2 && num3 <= num1) 
+		{
+			low = num3;
+			if(num2 <= num1) {
+				medium = num1;
+				high = num2;
+			}
+			else {
+				medium = num2;
+				high = num1;
+			}
 		}
+		
+		
 		System.out.println(low + " " + medium + " " + high); 
 	}
 
