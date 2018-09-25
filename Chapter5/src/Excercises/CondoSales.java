@@ -7,12 +7,12 @@ public class CondoSales {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		int condoChoice;
-		
+		int garageChoice;
 		String result;
 		Scanner input = new Scanner(System.in);
 		
 		System.out.println("You have 3 choices, 1 is park veiw, 2 is golf course veiw, and 3 is lake veiw");
-		System.out.println("Pick which veiw you want. >> ");
+		System.out.println("Pick which veiw you want. n1\n2\n3 >> ");
 		condoChoice = input.nextInt();
 		
 		if(condoChoice == 1) {
@@ -27,7 +27,11 @@ public class CondoSales {
 		else {
 			result = " Costs nothing";
 		}
-
+		System.out.println("You have 2 choices, 1 is garge and 2 is parking space with the condo");
+		System.out.println("Pick which one. n1\n2");
+		garageChoice = input.nextInt();
+		
+		
 
 	}
 
