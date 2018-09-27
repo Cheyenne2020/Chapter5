@@ -7,7 +7,6 @@ public class CondoSales {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		int condoChoice;
-		int garageChoice;
 		String result;
 		Scanner input = new Scanner(System.in);
 		
@@ -27,11 +26,14 @@ public class CondoSales {
 		else {
 			result = " Costs nothing";
 		}
+		int garageChoice;
 		System.out.println("You have 2 choices, 1 is garge and 2 is parking space with the condo");
 		System.out.println("Pick which one. n1\n2");
-		garageChoice = input.nextInt();
+		garageChoice = input.nextInt();	
 		
-		
+		if(garageChoice == 1 + condoChoice) {
+			
+		}
 
 	}
 
